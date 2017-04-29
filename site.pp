@@ -22,3 +22,4 @@ ssh_authorized_key { 'bart.home':
         type => 'rsa',
         key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCazpEMrUH/tmliXAH1xduBbiodcGEHv7j/C1gmJLPL$
 }
+#test
