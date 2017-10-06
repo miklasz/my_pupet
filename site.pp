@@ -15,12 +15,12 @@ ssh_authorized_key { 'bart':
         ensure => present,
         user => 'bart',
         type => 'rsa',
-        key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDGnNrrrN1lVXvGWKWKvRUFo63KY4C0O2dM9xlJJ/WO$
+        key => 'pub key'
 }
 ssh_authorized_key { 'bart.home':
         ensure => present,
         user => 'bart',
         type => 'rsa',
-        key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCazpEMrUH/tmliXAH1xduBbiodcGEHv7j/C1gmJLPL$
+        key => 'pub key'
 }
 #test
